@@ -1,0 +1,185 @@
+/* Estilos base para DESKTOP (original) */
+body {
+  background-image: url(../../assets/Images/wallp-day.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.home-content-box {
+position: relative;
+    
+  margin-top: 16px;
+  gap: 10px;
+  
+  width: 1600px;
+  height: 750px;
+  background-image: url(../../assets/Images/wall-frent-day.png);
+  margin: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  padding: 32px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.home-content-box:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    transform: scale(1.01);
+    transition: all 0.5s ease-in-out;
+}
+
+.header-background {
+
+    display: flex;
+    justify-content: center;
+}
+
+.custom-header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgba(226, 226, 226, 0.726);
+    border-radius: 40px;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 1450.7px;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.bar-link {
+    color: #000;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    min-width: 250px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.bar-link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.bar-link:hover {
+    background-color: aquamarine;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+
+
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.dot_home{
+   
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+
+.dot:hover {
+    background-color: aquamarine;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.15);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+.penicilina-content-box {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: center;
+  background: transparent; /* Remove o fundo branco */
+}
+
+.penicilina-content-box h1 {
+  font-size: 1.5rem;
+  color: #003366;
+  margin-bottom: 12px;
+}
+
+.penicilina-content-box p {
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.penicilina-content-box label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.penicilina-content-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.penicilina-content-box button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 12px;
+}
+
+.penicilina-content-box button:hover {
+  background-color: #0056b3;
+}
+
+.resultado {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #003366;
+}
+
+.glossario-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #007BFF;
+  text-decoration: underline;
+  font-size: 0.95rem;
+}

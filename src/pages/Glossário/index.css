@@ -1,0 +1,156 @@
+
+
+
+
+.glossario-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 2rem;
+}
+
+.glossario-chat {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 16px;
+  padding: 1.5rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  max-height: 420px;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.message {
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  max-width: 85%;
+  word-wrap: break-word;
+}
+
+.message.user {
+  background-color: #d0ebff;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background-color: #eeeeee;
+  align-self: flex-start;
+}
+
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input-area button {
+  padding: 0.75rem 1.25rem;
+  background-color: #00ff9d;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-area button:hover {
+  background-color: #485e8b;
+  color: white;
+}
+
+.glossario-summary {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 1rem auto;
+  max-width: 600px;
+  color: white;
+  text-align: center;
+}
+
+.glossario-summary ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.glossario-summary li button {
+  background-color: #007bff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.glossario-summary li button:hover {
+  background-color: #466d5e;
+}
+
+.suggestion-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  margin-top: 2px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+}
+
+.suggestions-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #333;
+}
+
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.input-area {
+  position: relative;
+  display: flex;
+  gap: 8px;
+}
+
+/* Ajuste para as mensagens não ficarem atrás das sugestões */
+.messages {
+  position: relative;
+  z-index: 1;
+}
+

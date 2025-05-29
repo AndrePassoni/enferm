@@ -1,0 +1,294 @@
+/* Estilos base para DESKTOP (original) */
+body {
+  background-image: url(../../assets/Images/wallp-day.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.home-content-box {
+  width: 1600px;
+  height: 750px;
+  background-image: url(../../assets/Images/wall-frent-day.png);
+  margin: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  padding: 32px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.home-content-box:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    transform: scale(1.01);
+    transition: all 0.5s ease-in-out;
+}
+
+.header-background {
+
+    display: flex;
+    justify-content: center;
+}
+
+.custom-header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgba(226, 226, 226, 0.726);
+    border-radius: 40px;
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 1450.7px;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.bar-link {
+    color: #000;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    min-width: 250px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.bar-link a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.bar-link:hover {
+    background-color: aquamarine;
+    color: #000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+
+
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.dot_home{
+   
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+
+.dot:hover {
+    background-color: aquamarine;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.15);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+/* Estilos para a página de Quiz */
+
+.quiz-container {
+
+  background-color: #36363648;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 90px;
+  max-width: 600px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  text-align: center;
+}
+
+.question-box h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.option-button {
+  padding: 0.75rem 1rem;
+  background-color: #ffffff;
+  color: #0f766e;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.option-button:hover {
+  background-color: #d1fae5;
+}
+
+.correct {
+  background-color: #10b981 !important;
+  color: white;
+}
+
+.incorrect {
+  background-color: #ef4444 !important;
+  color: white;
+}
+
+.result p {
+  margin: 1rem 0;
+}
+
+.result button {
+  padding: 0.75rem 1rem;
+  background-color: #0d9488;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+
+.unit-selection {
+  text-align: center;
+}
+
+.unit-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.unit-button {
+  padding: 10px 20px;
+  background-color: #2e8ece;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.unit-button:hover {
+  transform: scale(1.05);
+  background-color: #1c6fab;
+}
+
+
+
+
+.quiz-wrapper {
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+}
+
+.quiz-sidebar {
+  text-align: center;
+  width: 100px;
+  background-color: #36363648;;
+  padding: 16px;
+  border-radius: 12px;
+  color: white;
+  height: fit-content;
+}
+
+.unit-list-vertical {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.unit-tab {
+  background-color: #62a59a7c;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.unit-tab:hover {
+  background-color: #11ce7f;
+}
+
+.unit-tab.active {
+ background-color: #62a59a7c;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.quiz-main {
+  flex: 1;
+  background-color: #f8f9fa11;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.unit-placeholder {
+  font-style: italic;
+  color: #ffffff;
+}
+
+/* Reaproveite estilos existentes da barra de progresso */
+.quiz-progress {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.progress-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.progress-dot.answered {
+  background-color: #64ff3dd2;
+  transform: scale(1.3);
+}
+
+
+
